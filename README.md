@@ -2,10 +2,12 @@
 
 Spring Boot API for managing users, skills, and skill-sharing sessions.
 
-## Tech Stack
+## 🛠 Tech Stack
+
 - Java 21
 - Spring Boot
 - PostgreSQL
+- Spring Data JPA
 - MapStruct
 - Lombok
 
