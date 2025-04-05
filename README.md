@@ -11,6 +11,18 @@ Spring Boot API for managing users, skills, and skill-sharing sessions.
 - MapStruct
 - Lombok
 
+## 🧩 Dependencies
+
+This project uses the following Spring Boot starters and libraries:
+
+- `spring-boot-starter-web` – For building RESTful APIs
+- `spring-boot-starter-data-jpa` – For database interaction using JPA
+- `spring-boot-devtools` – For live reload during development
+- `postgresql` – As the relational database
+- `mapstruct` – For mapping between entities and DTOs
+- `lombok` – To reduce boilerplate code (getters/setters/constructors)
+
+
 ## 🚀 How to Run
 
 1. Configure your database in `src/main/resources/application.properties`:
