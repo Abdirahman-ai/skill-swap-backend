@@ -9,9 +9,15 @@ Spring Boot API for managing users, skills, and skill-sharing sessions.
 - MapStruct
 - Lombok
 
-## How to Run
-1. Configure `application.properties` with your PostgreSQL DB
-2. Run with: `mvn spring-boot:run`
+## 🚀 How to Run
+
+1. Configure your database in `src/main/resources/application.properties`:
+
+   ```properties
+   spring.datasource.url=jdbc:postgresql://localhost:5432/skillswap
+   spring.datasource.username=your_db_user
+   spring.datasource.password=your_db_password
+   spring.jpa.hibernate.ddl-auto=update
 
 ## 📦 Endpoints
 
